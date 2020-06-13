@@ -1,7 +1,7 @@
 
 ![logo](resources/images/main/logo-vertical.png ':size=364x236')
 
-<p align="center">
+<p id=start align="center">
     <h3 align="center">Welcome to the docs site for Block Builder.</h3>
 </p>
 
