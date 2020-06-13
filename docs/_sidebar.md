@@ -1,4 +1,4 @@
-![logo](resources/images/main/logo-horizontal-small.png)
+![logo](https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal-small.png)
 
 * **Surfaces**
   * [Introduction](surfaces/introduction.md)
