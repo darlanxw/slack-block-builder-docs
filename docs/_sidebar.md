@@ -1,3 +1,5 @@
+![logo](resources/images/main/logo-horizontal-small.png)
+
 * **Surfaces**
   * [Introduction](surfaces/introduction.md)
 

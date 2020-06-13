@@ -9,9 +9,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
     <style>
         :root {
+            --cover-background-color: #121212;
+            --cover-background-image: url('./resources/images/main/background.png');
+            --cover-button-border: 2px solid #02c6f5;
+            --cover-button-color: #02c6f5;
+            --cover-button-primary-background: #e01e5a;
+            --cover-button-primary-border: 1px solid #e01e5a;
+            --cover-color: #fff;
             --base-font-family: 'Lato', sans-serif;
             --base-font-size       : 16px;
             --base-font-weight     : 500;
@@ -20,6 +27,29 @@
             --heading-h2-font-weight: 900;
             --heading-h3-font-weight: 900;
             --heading-h4-font-weight: 900;
+            --sidebar-background: #f6f6f6;
+            --sidebar-border-color: #fff;
+            /*--sidebar-name-color: #fff;*/
+            /*--sidebar-nav-strong-color: #fff;*/
+            /*--sidebar-nav-link-color--active: #fff;*/
+            /*--sidebar-nav-link-color: #fff;*/
+            /*--sidebar-nav-link-before-color: #fff;*/
+            /*--sidebar-nav-link-before-color-l1: #fff;*/
+            /*--sidebar-nav-link-before-color-l2: #fff;*/
+            /*--base-background-color: #1e1e1e;*/
+            /*--base-color: #e2e2e2;*/
+            /*--code-theme-background: #121212;*/
+            /*--code-inline-border: 1px solid #000;*/
+            /*--code-inline-color: #000;*/
+            --code-inline-background: #e5f8f1;
+            --link-color: #e01e5a;
+            --link-text-decoration: none;
+            /*--table-row-odd-background: #1e1e1e;*/
+            /*--table-head-border-color: #e2e2e2;*/
+            /*--table-cell-border-color: #e2e2e2;*/
+            /*--table-cell-border-width: 0px;*/
+            --code-theme-keyword: #e01e5a;
+            /*--code-theme-comment: #9b9b9b;*/
         }
     </style>
 </head>
@@ -32,6 +62,7 @@
     hideSidebar: false,
     loadSidebar: true,
     subMaxLevel: 2,
+    logo: '/resources/images/main/logo-horizontal-small.png',
     tabs: {
       persist: true,
       sync: true,

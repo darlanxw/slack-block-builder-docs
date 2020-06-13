@@ -1,7 +1,15 @@
 
-![logo](resources/images/main/logo-horizontal.png ':size=600x135')
+![logo](resources/images/main/logo-vertical.png ':size=364x236')
 
-[GitHub](https://github.com/raycharius/slack-block-builder/)
-[Get Started](#start)
+<p align="center">
+    <h3 align="center">Welcome to the docs site for Block Builder.</h3>
+</p>
+
+<p align="center">
+    Your Slack apps are about to get a lot more <em>maintainable</em>.
+</p>
+
+[View Docs](#start)
+[Go to GitHub](https://github.com/raycharius/slack-block-builder/)
 
 ![color](#f0f0f0)

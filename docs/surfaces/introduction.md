@@ -4,7 +4,7 @@ According to [Slack's Block Kit documentation](https://api.slack.com/surfaces), 
 
 In a word, you can think of a Surface as a canvas on which you compose an experience for your users. And Blocks and Elements – as the paint. In frontend development terms, you can think of them as the `<body>` tag. 
 
-### The Three Surfaces
+### The Three Slack Block Kit Surfaces
 
 **Messages** – These are sent to a user or channel from a Slack app as an actual message in the chat. They can be be composed of just text or contain interactive Blocks and Elements. Messages are deployed via the `chat.postMessage` API method.
 
@@ -12,26 +12,24 @@ In a word, you can think of a Surface as a canvas on which you compose an experi
 
 **Home Tabs** – Think of this as your app's website, or maybe even its Slack profile. It's a place where your app can tell its story and also provide quick links to common actions. Home Tabs are _published_ through the `view.publish` endpoint.
 
-### Working With Surfaces in Block Builder
+### Accessing Surfaces in Block Builder
 
 **Block Builder** supports all three Surfaces and provides a simple and meaningful interface to compose user experiences with them. Anything you build with Block Builder will start with one of the `Surface` objects.  
 
 They are all three exposed at the highest level of the library:
 
 ```javascript
-// Import Message
-
 import { Message } from 'slack-block-builder';
 ```
 
 ```javascript
-// Import Modal
-
 import { Modal } from 'slack-block-builder';
 ```
 
 ```javascript
-// Import HomeTab
-
 import { HomeTab } from 'slack-block-builder';
 ```
+
+Once the `Surface` object has been imported, you create an instance by calling it directly, such as by calling `Modal()` to create a `Modal` dialog.   
+
+For more detailed information, see their individual reference docs.
