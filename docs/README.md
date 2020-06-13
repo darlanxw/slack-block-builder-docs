@@ -1,5 +1,5 @@
 <p align="center" id="start">
-    <img src="resources/images/main/logo-horizontal.png" alt="Logo" width="600px">
+    <img src="https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal.png?token=AFCIVLN5RSTUZTONEGTA35C65ZDI2" alt="Logo" width="600px">
 </p>
 
 <p align="center">
