@@ -1,0 +1,12 @@
+{
+  "name": "slack-block-builder-docs",
+  "version": "1.0.0",
+  "devDependencies": {
+    "docsify-cli": "^4.4.1",
+    "now": "^19.1.0",
+    "docsify-server-renderer": "^4.11.2",
+    "docsify-tabs": "^1.4.2",
+    "mustache": "^4.0.1",
+    "slack-block-builder": "^0.1.1"
+  }
+}
