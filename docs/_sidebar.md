@@ -1,10 +1,8 @@
 [![logo](https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal-small.png)](home.md)
 
-* [**Motivations**](motivations.md)
-* [**Installation**](installation.md)
-* [**Supported Components**](support.md)
-
-* **Overview**   
+* **Overview**
+  * [Supported Components](support.md)
+  * [Installation](installation.md)
   * [Getting Started](getting-started.md)
 
 * **Surfaces**
@@ -18,3 +16,9 @@
   
 * **Bits**
   * [Introduction](bits/introduction.md)
+
+* **About**
+  * [Motivations](motivations.md)
+  * [Acknowledgements](motivations.md)
+  * [Author](motivations.md)
+  * [Awesome Slack](motivations.md)
