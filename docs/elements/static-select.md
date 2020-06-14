@@ -1,6 +1,6 @@
 # Static Select
 
-Creating a **Static Select** is done by means of the `StaticSelect` object.
+Created by using of the `StaticSelect` object.
 
 ?> **Note:** This document is a reference to the `StaticSelect` object in **Block Builder**. For information on the business logic for the **Static Select** in the context of the Slack Block Kit framework, visit [the Static Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#static_select) on Slack's doc site.
 

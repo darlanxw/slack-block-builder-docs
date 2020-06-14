@@ -1,6 +1,6 @@
 # Confirmation Dialog
 
-Creating a **Confirmation Dialog** is done by means of the `ConfirmationDialog` object.
+Created by using of the `ConfirmationDialog` object.
 
 ?> **Note:** This document is a reference to the `ConfirmationDialog` object in **Block Builder**. For information on the business logic for the **Confirmation Dialog** in the context of the Slack Block Kit framework, visit [the Confirmation Dialog docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;composition-objects#confirm) on Slack's doc site.
 

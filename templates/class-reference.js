@@ -1,6 +1,6 @@
 const classReference = `# {{displayName}}
 
-Creating a **{{displayName}}** is done by means of the \`{{className}}\` object.
+Created by using of the \`{{className}}\` object.
 
 ?> **Note:** This document is a reference to the \`{{className}}\` object in **Block Builder**. For information on the business logic for the **{{displayName}}** in the context of the Slack Block Kit framework, visit [the {{displayName}} docs]({{link}}) on Slack's doc site.
 

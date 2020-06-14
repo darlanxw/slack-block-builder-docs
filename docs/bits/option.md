@@ -1,6 +1,6 @@
 # Option
 
-Creating a **Option** is done by means of the `Option` object.
+Created by using of the `Option` object.
 
 ?> **Note:** This document is a reference to the `Option` object in **Block Builder**. For information on the business logic for the **Option** in the context of the Slack Block Kit framework, visit [the Option docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;composition-objects#option) on Slack's doc site.
 

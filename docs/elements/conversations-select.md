@@ -1,6 +1,6 @@
 # Conversation Select
 
-Creating a **Conversation Select** is done by means of the `ConversationSelect` object.
+Created by using of the `ConversationSelect` object.
 
 ?> **Note:** This document is a reference to the `ConversationSelect` object in **Block Builder**. For information on the business logic for the **Conversation Select** in the context of the Slack Block Kit framework, visit [the Conversation Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#conversation_select) on Slack's doc site.
 

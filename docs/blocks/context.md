@@ -1,6 +1,6 @@
 # Context
 
-Creating a **Context** is done by means of the `Context` object.
+Created by using of the `Context` object.
 
 ?> **Note:** This document is a reference to the `Context` object in **Block Builder**. For information on the business logic for the **Context** in the context of the Slack Block Kit framework, visit [the Context docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;blocks#context) on Slack's doc site.
 

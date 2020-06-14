@@ -1,6 +1,6 @@
 # Date Picker
 
-Creating a **Date Picker** is done by means of the `DatePicker` object.
+Created by using of the `DatePicker` object.
 
 ?> **Note:** This document is a reference to the `DatePicker` object in **Block Builder**. For information on the business logic for the **Date Picker** in the context of the Slack Block Kit framework, visit [the Date Picker docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#datepicker) on Slack's doc site.
 

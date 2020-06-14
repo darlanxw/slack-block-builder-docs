@@ -1,6 +1,6 @@
 # Home Tab
 
-Creating a **Home Tab** is done by means of the `HomeTab` object.
+Created by using of the `HomeTab` object.
 
 ?> **Note:** This document is a reference to the `HomeTab` object in **Block Builder**. For information on the business logic for the **Home Tab** in the context of the Slack Block Kit framework, visit [the Home Tab docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;surfaces&#x2F;views) on Slack's doc site.
 

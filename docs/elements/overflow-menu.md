@@ -1,6 +1,6 @@
 # Overflow Menu
 
-Creating a **Overflow Menu** is done by means of the `OverflowMenu` object.
+Created by using of the `OverflowMenu` object.
 
 ?> **Note:** This document is a reference to the `OverflowMenu` object in **Block Builder**. For information on the business logic for the **Overflow Menu** in the context of the Slack Block Kit framework, visit [the Overflow Menu docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#overflow) on Slack's doc site.
 

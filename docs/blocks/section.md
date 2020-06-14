@@ -1,6 +1,6 @@
 # Section
 
-Creating a **Section** is done by means of the `Section` object.
+Created by using of the `Section` object.
 
 ?> **Note:** This document is a reference to the `Section` object in **Block Builder**. For information on the business logic for the **Section** in the context of the Slack Block Kit framework, visit [the Section docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;blocks#section) on Slack's doc site.
 
