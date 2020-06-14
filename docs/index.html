@@ -20,36 +20,36 @@
             --cover-button-primary-border: 1px solid #e01e5a;
             --cover-color: #fff;
             --base-font-family: 'Lato', sans-serif;
-            --base-font-size       : 16px;
-            --base-font-weight     : 500;
-            --base-line-height     : 1.7;
+            --base-font-size: 16px;
+            --base-font-weight: 500;
+            --base-line-height: 1.7;
+            --heading-color: #000;
             --heading-h1-font-weight: 900;
             --heading-h2-font-weight: 900;
             --heading-h3-font-weight: 900;
             --heading-h4-font-weight: 900;
             --sidebar-background: #f6f6f6;
             --sidebar-border-color: #fff;
-            /*--sidebar-name-color: #fff;*/
-            /*--sidebar-nav-strong-color: #fff;*/
-            /*--sidebar-nav-link-color--active: #fff;*/
-            /*--sidebar-nav-link-color: #fff;*/
-            /*--sidebar-nav-link-before-color: #fff;*/
-            /*--sidebar-nav-link-before-color-l1: #fff;*/
-            /*--sidebar-nav-link-before-color-l2: #fff;*/
-            /*--base-background-color: #1e1e1e;*/
-            /*--base-color: #e2e2e2;*/
-            /*--code-theme-background: #121212;*/
-            /*--code-inline-border: 1px solid #000;*/
-            /*--code-inline-color: #000;*/
-            --code-inline-background: #e5f8f1;
-            --link-color: #e01e5a;
+            --sidebar-width: 18rem;
+            --table-cell-padding: 1em .5em;
+            --sidebar-nav-margin: 1.45rem 0 0;
+            --sidebar-nav-link-background-image: none;
+            --sidebar-nav-pagelink-background-image: none;
+            --sidebar-nav-link-color--active: #e01e5a;
+            --sidebar-nav-link-border-color--active: #e01e5a;
+            --sidebar-toggle-offset-left: 22px;
+            --sidebar-toggle-icon-height: 18px;
+            --sidebar-toggle-icon-width: 25px;
+            --sidebar-toggle-icon-stroke-width: 3px;
+            --code-inline-color: #e01e5a;
+            --code-inline-background: rgb(248, 248, 248);
+            --code-inline-border-radius: 5px;
+            --link-color: #02abd4;
             --link-text-decoration: none;
-            /*--table-row-odd-background: #1e1e1e;*/
-            /*--table-head-border-color: #e2e2e2;*/
-            /*--table-cell-border-color: #e2e2e2;*/
-            /*--table-cell-border-width: 0px;*/
             --code-theme-keyword: #e01e5a;
-            /*--code-theme-comment: #9b9b9b;*/
+            --code-theme-function: #9c3d98;
+            --code-theme-selector: #00935e;
+            --code-theme-operator: #f6b000;
         }
     </style>
 </head>
@@ -57,6 +57,7 @@
 <div id="app"></div>
 <script>
   window.$docsify = {
+    homepage: 'home.md',
     auto2top: true,
     coverpage: true,
     hideSidebar: false,
