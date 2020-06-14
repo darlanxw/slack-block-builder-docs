@@ -1,4 +1,4 @@
-[![logo](https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal-small.png)](home.md)
+[![logo](https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal-small.png)](/)
 
 * **Overview**
   * [Supported Components](support.md)
