@@ -6,8 +6,6 @@ Below is a list of supported objects and how to access them in **Block Builder**
 
 ?> **Note:** A few of the [composition objects](https://api.slack.com/reference/block-kit/composition-objects), such as the Plain-Text and Markdown objects are not mentioned here, as they are built in the background, as part of a more UI-focus component. 
 
-### Surfaces
-
 | **Type**             | **Name**           | **Support**    | **Accessed Via**                  | **Docs**    
 |----------------------|--------------------|----------------|-----------------------------------|--------------
 | App Home             | Surface            | ✅             | `AppHome()`                       | [View Docs](home.md)
