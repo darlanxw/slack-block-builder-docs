@@ -1,5 +1,5 @@
 <p id=start align="center">
-    <h1 align="center">Maintainable code for Slack interactive messages, modals, and home tabs.</h1>
+    <h1 align="center">Maintainable JavaScript for Slack interactive messages, modals, and home tabs.</h1>
 </p>
 
 <p align="center">
