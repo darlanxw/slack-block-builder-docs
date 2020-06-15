@@ -1,6 +1,6 @@
 # Supported Components
 
-At the time of writing this doc, **Slack Builder** supports every component provided by the [Slack Block Kit](https://api.slack.com/block-kit) framework.
+At the time of writing this doc, **Block Builder** supports every component provided by the [Slack Block Kit](https://api.slack.com/block-kit) framework.
 
 Below is a list of supported objects and how to access them in **Block Builder**. 
 

@@ -15,8 +15,8 @@
     <meta property="og:url" content="https://blockbuilder.dev"/>
     <meta property="og:image"
           content="https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/og.png"/>
-    <link rel="icon" type="image/png" sizes="16x16"  href="resources/images/fav-icon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32"  href="resources/images/fav-icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/images/fav-icon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/fav-icon-32.png">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
@@ -179,11 +179,11 @@
             font-size: 14px;
         }
 
-        .sidebar-nav li>a[href^="#/"]:not([href*="?id="]):only-child {
+        .sidebar-nav li > a[href^="#/"]:not([href*="?id="]):only-child {
             padding-left: 5px;
         }
 
-        .sidebar-nav li>p {
+        .sidebar-nav li > p {
             margin-bottom: 5px;
         }
 
@@ -263,6 +263,16 @@
             background-color: #00c7f5;
         }
 
+        button:focus {
+            outline: none;
+        }
+
+        .docsify-tabs--classic .docsify-tabs__tab--active {
+            border-top: solid 3px #00c7f5;
+            box-shadow: none;
+            font-weight: 600;
+        }
+
         :root {
             --cover-background-color: #121212;
             --cover-background-image: url('https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/background.png');
@@ -311,6 +321,15 @@
             --code-theme-function: #9c3d98;
             --code-theme-selector: #00935e;
             --code-theme-operator: #f6b000;
+            --docsifytabs-border-color: #f7f7f7;
+            --docsifytabs-border-px: 2px;
+            --docsifytabs-border-radius-px: 5px;
+            --docsifytabs-margin: 3em 0;
+            --docsifytabs-tab-color--active: #121212;
+            --docsifytabs-tab-highlight-color: #02abd4;
+            --docsifytabs-tab-color: #adadad;
+            --docsifytabs-tab-background: #f7f7f7;
+
         }
     </style>
 </head>
@@ -324,13 +343,6 @@
     hideSidebar: false,
     loadSidebar: true,
     subMaxLevel: 2,
-    tabs: {
-      persist: true,
-      sync: true,
-      theme: 'classic',
-      tabComments: true,
-      tabHeadings: true,
-    },
     pagination: {
       crossChapter: true,
       crossChapterText: true,
@@ -341,6 +353,12 @@
       noData: '😬 Nothing found, friend.',
       depth: 6,
       hideOtherSidebarContent: false,
+    },
+    tabs: {
+      persist: true,
+      sync: false,
+      tabComments: true,
+      tabHeadings: true,
     }
   }
 </script>
@@ -348,5 +366,6 @@
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>

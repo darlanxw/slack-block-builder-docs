@@ -2,7 +2,7 @@
 
 This is the one category of objects that differs from those laid out in the [Slack Block Kit](https://api.slack.com/block-kit) documentation.     
 
-The `Bits` object in **Slack Builder** contains methods to create certain objects that are referred to in the Block Kit reference as [composition objects](https://api.slack.com/reference/block-kit/composition-objects). More specifically, **Options**, **Option Groups**, and **Confirmation Dialogs**.
+The `Bits` object in **Block Builder** contains methods to create certain objects that are referred to in the Block Kit reference as [composition objects](https://api.slack.com/reference/block-kit/composition-objects). More specifically, **Options**, **Option Groups**, and **Confirmation Dialogs**.
 
 Unlike other composition objects, such as the Filter object or Plain-Text object, these are less concerned with data structure, and more based around UI and user experience. As such, it felt like they really deserved to be their own entity. And so came about the `Bits` object.    
 
