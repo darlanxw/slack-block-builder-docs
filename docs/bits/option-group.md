@@ -1,6 +1,6 @@
 # Option Group
 
-Created by using of the `OptionGroup` object.
+Created by using the `OptionGroup` object.
 
 ?> **Note:** This document is a reference to the `OptionGroup` object in **Block Builder**. For information on the business logic for the **Option Group** in the context of the Slack Block Kit framework, visit [the Option Group docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;composition-objects#option_group) on Slack's doc site.
 

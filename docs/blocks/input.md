@@ -1,6 +1,6 @@
 # Input
 
-Created by using of the `Input` object.
+Created by using the `Input` object.
 
 ?> **Note:** This document is a reference to the `Input` object in **Block Builder**. For information on the business logic for the **Input** in the context of the Slack Block Kit framework, visit [the Input docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;blocks#input) on Slack's doc site.
 

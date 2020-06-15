@@ -1,6 +1,6 @@
 # Divider
 
-Created by using of the `Divider` object.
+Created by using the `Divider` object.
 
 ?> **Note:** This document is a reference to the `Divider` object in **Block Builder**. For information on the business logic for the **Divider** in the context of the Slack Block Kit framework, visit [the Divider docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;blocks#divider) on Slack's doc site.
 

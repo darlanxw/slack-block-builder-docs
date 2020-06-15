@@ -1,6 +1,6 @@
 # Channel Multi-Select
 
-Created by using of the `ChannelMultiSelect` object.
+Created by using the `ChannelMultiSelect` object.
 
 ?> **Note:** This document is a reference to the `ChannelMultiSelect` object in **Block Builder**. For information on the business logic for the **Channel Multi-Select** in the context of the Slack Block Kit framework, visit [the Channel Multi-Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#channel_multi_select) on Slack's doc site.
 

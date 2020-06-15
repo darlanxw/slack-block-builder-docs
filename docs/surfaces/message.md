@@ -1,6 +1,6 @@
 # Message
 
-Created by using of the `Message` object.
+Created by using the `Message` object.
 
 ?> **Note:** This document is a reference to the `Message` object in **Block Builder**. For information on the business logic for the **Message** in the context of the Slack Block Kit framework, visit [the Message docs](https:&#x2F;&#x2F;api.slack.com&#x2F;messaging&#x2F;composing) on Slack's doc site.
 

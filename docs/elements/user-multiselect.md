@@ -1,6 +1,6 @@
 # User Multi-Select
 
-Created by using of the `UserMultiSelect` object.
+Created by using the `UserMultiSelect` object.
 
 ?> **Note:** This document is a reference to the `UserMultiSelect` object in **Block Builder**. For information on the business logic for the **User Multi-Select** in the context of the Slack Block Kit framework, visit [the User Multi-Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#users_multi_select) on Slack's doc site.
 
