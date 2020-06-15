@@ -79,5 +79,5 @@ Builds the object and returns an object compatible with the Slack API (after str
 HomeTab.printPreviewUrl()
 ```
 
-Builds the object and prints a preview URL to Slack&#39;s Block Kit Builder website to the console.
+Builds the object and prints a preview URL to Slack's Block Kit Builder website to the console.
 

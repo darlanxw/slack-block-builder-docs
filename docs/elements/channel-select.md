@@ -65,7 +65,7 @@ Sets a placeholder to be displayed for the form input element.
 ChannelSelect.responseUrlEnabled()
 ```
 
-Sets this option to &#x60;true&#x60;. By doing so, a response URL will be supplied with payloads to your application upon interaction.
+Sets this option to `true`. By doing so, a response URL will be supplied with payloads to your application upon interaction.
 
 
 ### Other Methods

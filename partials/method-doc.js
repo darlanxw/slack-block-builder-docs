@@ -9,7 +9,7 @@ const withoutArgs = `\`\`\`javascript
 {{name}}.{{method}}()
 \`\`\`
 
-{{description}}
+{{{description}}}
 `
 
 module.exports = {

@@ -69,7 +69,7 @@ Sets a minimum character count in order for the user to submit the form.
 TextInput.multiline()
 ```
 
-Sets this option to &#x60;true&#x60;, making the text input field larger, for paragraph text.
+Sets this option to `true`, making the text input field larger, for paragraph text.
 ```javascript
 TextInput.placeholder(string)
 ```

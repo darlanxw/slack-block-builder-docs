@@ -59,7 +59,7 @@ Sets a string to be returned back to your application with interaction and submi
 Modal.clearOnClose()
 ```
 
-Sets this option to &#x60;true&#x60;, meaning all open modals (for example, modals lower in the stack) will be cleared up closing it.
+Sets this option to `true`, meaning all open modals (for example, modals lower in the stack) will be cleared up closing it.
 ```javascript
 Modal.close(string)
 ```
@@ -74,7 +74,7 @@ Sets the Slack-provided ID for Slack to identify the object.
 Modal.notifyOnClose()
 ```
 
-Sets this option to &#x60;true&#x60;, meaning your application will receive an interaction payload when the modal is closed.
+Sets this option to `true`, meaning your application will receive an interaction payload when the modal is closed.
 ```javascript
 Modal.privateMetaData(string)
 ```
@@ -110,5 +110,5 @@ Builds the object and returns an object compatible with the Slack API (after str
 Modal.printPreviewUrl()
 ```
 
-Builds the object and prints a preview URL to Slack&#39;s Block Kit Builder website to the console.
+Builds the object and prints a preview URL to Slack's Block Kit Builder website to the console.
 

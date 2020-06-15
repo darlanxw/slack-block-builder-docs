@@ -60,12 +60,12 @@ Sets this option to true, making the default selected conversation the one curre
 ConversationSelect.excludeBotUsers()
 ```
 
-Sets this option to &#x60;true&#x60;, excluding bot users from the menu.
+Sets this option to `true`, excluding bot users from the menu.
 ```javascript
 ConversationSelect.excludeExternalSharedChannels()
 ```
 
-Sets this option to &#x60;true&#x60;, excluding externally shared conversations from the menu.
+Sets this option to `true`, excluding externally shared conversations from the menu.
 ```javascript
 ConversationSelect.filter(string1[, ...[, stringN])
 ```
@@ -85,7 +85,7 @@ Sets a placeholder to be displayed for the form input element.
 ConversationSelect.responseUrlEnabled()
 ```
 
-Sets this option to &#x60;true&#x60;. By doing so, a response URL will be supplied with payloads to your application upon interaction.
+Sets this option to `true`. By doing so, a response URL will be supplied with payloads to your application upon interaction.
 
 
 ### Other Methods

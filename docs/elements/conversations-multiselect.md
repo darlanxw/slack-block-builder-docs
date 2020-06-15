@@ -60,12 +60,12 @@ Sets this option to true, making the default selected conversation the one curre
 ConversationMultiSelect.excludeBotUsers()
 ```
 
-Sets this option to &#x60;true&#x60;, excluding bot users from the menu.
+Sets this option to `true`, excluding bot users from the menu.
 ```javascript
 ConversationMultiSelect.excludeExternalSharedChannels()
 ```
 
-Sets this option to &#x60;true&#x60;, excluding externally shared conversations from the menu.
+Sets this option to `true`, excluding externally shared conversations from the menu.
 ```javascript
 ConversationMultiSelect.filter(string1[, ...[, stringN])
 ```

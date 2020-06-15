@@ -45,7 +45,7 @@ All builder methods return `this`, the instance of `Message` on which the method
 Message.asUser()
 ```
 
-Sets this option to &#x60;true&#x60;, which means the message will be sent from your app as a user or bot user.
+Sets this option to `true`, which means the message will be sent from your app as a user or bot user.
 ```javascript
 Message.blocks(Block1[, ...[, BlockN])
 ```
@@ -60,17 +60,17 @@ Sets the channel to which the message will be sent.
 Message.deleteOriginal()
 ```
 
-Sets this option to &#x60;true&#x60;, which means when sent, this message will delete the message that is the origin of the interaction payload. Used when working with response URLs.
+Sets this option to `true`, which means when sent, this message will delete the message that is the origin of the interaction payload. Used when working with response URLs.
 ```javascript
 Message.ephemeral()
 ```
 
-Sets the response type to be &#x60;ephemeral&#x60;, which makes the message only visible to the user to which it is sent. Used when sending a message to a channel or conversation with multiple users present.
+Sets the response type to be `ephemeral`, which makes the message only visible to the user to which it is sent. Used when sending a message to a channel or conversation with multiple users present.
 ```javascript
 Message.inChannel()
 ```
 
-Sets the response type to be &#x60;in_channel&#x60;, which makes the message only visible everyone in the channel or conversation to which it is sent.
+Sets the response type to be `in_channel`, which makes the message only visible everyone in the channel or conversation to which it is sent.
 ```javascript
 Message.postAt(timestamp)
 ```
@@ -80,7 +80,7 @@ Sets a timestamp for a time in the future, at which the message will be sent. Us
 Message.replaceOriginal()
 ```
 
-Sets this option to &#x60;true&#x60;, which means when sent, this message will replace the message that is the origin of the interaction payload. Used when working with response URLs.
+Sets this option to `true`, which means when sent, this message will replace the message that is the origin of the interaction payload. Used when working with response URLs.
 ```javascript
 Message.threadTs(timestamp)
 ```
@@ -111,5 +111,5 @@ Builds the object and returns an array with the (built) Blocks.
 Message.printPreviewUrl()
 ```
 
-Builds the object and prints a preview URL to Slack&#39;s Block Kit Builder website to the console.
+Builds the object and prints a preview URL to Slack's Block Kit Builder website to the console.
 
