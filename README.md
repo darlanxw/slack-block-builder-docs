@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <h3 align="center">Source for <a href="https://blockbuilder.dev">https://blockbuilder.dev</a>, the doc site for <a href="https://github.com/raycharius/slack-block-kit">Block Builder</a>.</h3>
+    <h4 align="center">Source for <a href="https://blockbuilder.dev">https://blockbuilder.dev</a>, the doc site for <a href="https://github.com/raycharius/slack-block-kit">Block Builder</a>.</h4>
 </p>
 
 ![Block Builder Doc Site Screenshot](resources/hero.png)
