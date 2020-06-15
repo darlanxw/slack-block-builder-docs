@@ -97,7 +97,7 @@
         }
 
         body .pagination-item-title {
-            color: #000;
+            color: #121212;
             font-size: 18px;
             margin-bottom: 3px;
             transition: all 0.2s;
@@ -105,7 +105,8 @@
         }
 
         body .pagination-item-subtitle {
-            color: #000;
+            color: #adadad;
+            font-weight: 400;
             text-transform: none;
             transition: all 0.2s;
             font-size: 16px;
@@ -113,7 +114,7 @@
         }
 
         body .pagination-item-label {
-            color: #000;
+            color: #121212;
             margin-bottom: 5px;
             transition: all 0.2s;
             font-weight: 400;
@@ -131,67 +132,16 @@
             color: #e01e5a;
         }
 
-        /*.pagination-item:last-child .pagination-item-label, .pagination-item:not(:last-child) a:hover .pagination-item-label {*/
-        /*    opacity: 1;*/
-        /*}*/
-
-        /*.pagination-item--next .pagination-item-title,*/
-        /*.pagination-item--next .pagination-item-label,*/
-        /*.pagination-item--next .pagination-item-subtitle {*/
-        /*    transition: all 0.2s;*/
-        /*    transition-property: ease;*/
-        /*    color: #000;*/
-        /*    opacity: 1;*/
-        /*}*/
-
         .pagination-item:not(:last-child) a .pagination-item-label,
         .pagination-item:not(:last-child) a .pagination-item-subtitle,
         .pagination-item:not(:last-child) a .pagination-item-title {
             opacity: 1;
         }
 
-        /*.pagination-item:last-child .pagination-item-label,*/
-        /*.pagination-item:not(:last-child) a:hover .pagination-item-label {*/
-        /*    opacity: 1;*/
-        /*}*/
-
-        /*.pagination-item--next .pagination-item-title,*/
-        /*.pagination-item--next .pagination-item-label,*/
-        /*.pagination-item--next .pagination-item-subtitle {*/
-        /*    transition: all 0.2s;*/
-        /*    transition-property: ease;*/
-        /*    color: #000;*/
-        /*    opacity: 1;*/
-        /*}*/
-
-        /*.pagination-item--next .pagination-item-title:hover,*/
-        /*.pagination-item--next .pagination-item-label:hover,*/
-        /*.pagination-item--next .pagination-item-subtitle {*/
-        /*    transition: all 0.2s;*/
-        /*    transition-property: ease;*/
-        /*    opacity: 1;*/
-        /*}*/
-
-        /*.pagination-item a:hover {*/
-        /*    color: #000;*/
-        /*    opacity: 1;*/
-        /*}*/
-
-        /*.pagination-item a:hover .pagination-item-title {*/
-        /*    text-decoration: none;*/
-        /*}*/
-
-
-        /*.pagination-item a:hover .pagination-item-title,*/
-        /*.pagination-item a:hover .pagination-item-subtitle,*/
-        /*.pagination-item a:hover .pagination-item-label {*/
-        /*    opacity: 1;*/
-        /*}*/
-
         .sidebar .search .input-wrap {
             /*margin: 0;*/
-            background-color: #00c7f5;
-            border-top: none;
+            background-color: #121212;
+            border: none;
         }
 
         .sidebar .search {
@@ -210,28 +160,55 @@
             background-image: none;
         }
 
+        .sidebar .search .results-panel.show {
+            background-color: #181818;
+            margin-left: -25px;
+            margin-right: -25px;
+            padding-left: 31px;
+            padding-right: 25px;
+        }
+
+        .sidebar .search h2 {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .sidebar .search .matching-post p {
+            color: #888;
+            font-size: 14px;
+        }
+
         .sidebar .search .matching-post {
             border: none;
         }
 
         .sidebar .search .matching-post:nth-child(1n) .search-keyword {
-            border: none;
             background-color: #9c3d98;
         }
 
         .sidebar .search .matching-post:nth-child(2n) .search-keyword {
-            border: none;
             background-color: #e01e5a;
         }
 
         .sidebar .search .matching-post:nth-child(3n) .search-keyword {
-            border: none;
             background-color: #f6b000;
         }
 
         .sidebar .search .matching-post:nth-child(4n) .search-keyword {
-            border: none;
             background-color: #02abd4;
+        }
+
+        .sidebar .search .matching-post:nth-child(5n) .search-keyword {
+            background-color: #00935e;
+        }
+
+        .search p.empty {
+            color: #fff;
+            /*font-weight: 600;*/
+            margin-top: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            text-align: center;
         }
 
         .sidebar .search input[type="search"]::placeholder {
@@ -265,7 +242,7 @@
         }
 
         .sidebar .search .clear-button svg path {
-            stroke: #00c7f5;
+            stroke: #121212;
         }
 
         .markdown-section .warn {
@@ -289,13 +266,14 @@
             --base-font-size: 16px;
             --base-font-weight: 500;
             --base-line-height: 1.7;
-            --heading-color: #000;
+            --heading-color: #121212;
             --heading-h1-font-weight: 900;
             --heading-h2-font-weight: 900;
             --heading-h3-font-weight: 900;
             --heading-h4-font-weight: 900;
             --sidebar-background: #f6f6f6;
-            --sidebar-border-color: #fff;
+            --sidebar-border-color: rgb(225, 225, 225, 0);
+            --sidebar-border-width: 0;
             --sidebar-width: 18rem;
             --table-head-border-color: transparent;
             --table-cell-border-color: transparent;
@@ -304,6 +282,9 @@
             --sidebar-nav-margin: 1.3rem 0 0;
             --sidebar-nav-link-background-image: none;
             --sidebar-nav-pagelink-background-image: none;
+            --sidebar-nav-link-color--hover: #e01e5a;
+            --sidebar-nav-link-color--hover: #e01e5a;
+            --sidebar-nav-link-text-decoration--hover: none;
             --sidebar-nav-link-color--active: #e01e5a;
             --sidebar-nav-link-border-color--active: #e01e5a;
             --sidebar-toggle-offset-left: 12px;
@@ -311,7 +292,7 @@
             --sidebar-toggle-icon-height: 18px;
             --sidebar-toggle-icon-width: 25px;
             --sidebar-toggle-icon-stroke-width: 3px;
-            --sidebar-toggle-icon-color: #000;
+            --sidebar-toggle-icon-color: #121212;
             --code-inline-color: #e01e5a;
             --code-inline-background: rgb(248, 248, 248);
             --code-inline-border-radius: 5px;
@@ -348,9 +329,9 @@
     search: {
       maxAge: 86400000, // Expiration time, the default one day
       placeholder: 'Search...',
-      noData: 'Nothing found, friend.',
+      noData: '😬 Nothing found, friend.',
       depth: 6,
-      hideOtherSidebarContent: true,
+      hideOtherSidebarContent: false,
     }
   }
 </script>
