@@ -19,7 +19,6 @@ As a general rule – methods that end in an 's' will append. A few examples ar
 Once a property is set, it cannot be set again. They become immutable. As such, calling a builder method for a property that has already been set will throw and error:
 
 ```javascript
-
 const myModal = () => {
   return Modal()
     .title('My Modal')  // Sets the title of the modal
