@@ -18,9 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-    <a href="https://github.com/raycharius/slack-block-builder" class="github-corner" aria-label="View source on GitHub">
+    <a href="https://github.com/raycharius/slack-block-builder" class="github-corner"
+       aria-label="View source on GitHub">
         <svg width="80" height="80" viewBox="0 0 250 250"
-             style="fill:#121212; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+             style="fill:#f6b000; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
             <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
                   fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
@@ -94,24 +95,98 @@
             border: none;
             font-weight: 600;
         }
-        .pagination-item--next .pagination-item-title,
-        .pagination-item--next .pagination-item-label {
-            transition: all 0.2s;
-            transition-property: ease;
-            opacity: 0.3;
-        }
 
-        .pagination-item--next .pagination-item-title:hover,
-        .pagination-item--next .pagination-item-label:hover {
+        body .pagination-item-title {
+            color: #000;
+            font-size: 18px;
+            margin-bottom: 3px;
             transition: all 0.2s;
-            transition-property: ease;
             opacity: 1;
         }
 
-        .pagination-item a:hover {
-            text-decoration: none;
+        body .pagination-item-subtitle {
             color: #000;
+            text-transform: none;
+            transition: all 0.2s;
+            font-size: 16px;
+            opacity: 1;
         }
+
+        body .pagination-item-label {
+            color: #000;
+            margin-bottom: 5px;
+            transition: all 0.2s;
+            font-weight: 400;
+            font-size: 10px;
+            opacity: 1;
+        }
+
+        .pagination-item:last-child .pagination-item-label, .pagination-item:not(:last-child) a:hover .pagination-item-label {
+            opacity: 1;
+        }
+
+        .pagination-item a:hover .pagination-item-title {
+            text-decoration: none;
+            transition: all 0.2s;
+            color: #e01e5a;
+        }
+
+        /*.pagination-item:last-child .pagination-item-label, .pagination-item:not(:last-child) a:hover .pagination-item-label {*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        /*.pagination-item--next .pagination-item-title,*/
+        /*.pagination-item--next .pagination-item-label,*/
+        /*.pagination-item--next .pagination-item-subtitle {*/
+        /*    transition: all 0.2s;*/
+        /*    transition-property: ease;*/
+        /*    color: #000;*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        .pagination-item:not(:last-child) a .pagination-item-label,
+        .pagination-item:not(:last-child) a .pagination-item-subtitle,
+        .pagination-item:not(:last-child) a .pagination-item-title {
+            opacity: 1;
+        }
+
+        /*.pagination-item:last-child .pagination-item-label,*/
+        /*.pagination-item:not(:last-child) a:hover .pagination-item-label {*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        /*.pagination-item--next .pagination-item-title,*/
+        /*.pagination-item--next .pagination-item-label,*/
+        /*.pagination-item--next .pagination-item-subtitle {*/
+        /*    transition: all 0.2s;*/
+        /*    transition-property: ease;*/
+        /*    color: #000;*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        /*.pagination-item--next .pagination-item-title:hover,*/
+        /*.pagination-item--next .pagination-item-label:hover,*/
+        /*.pagination-item--next .pagination-item-subtitle {*/
+        /*    transition: all 0.2s;*/
+        /*    transition-property: ease;*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        /*.pagination-item a:hover {*/
+        /*    color: #000;*/
+        /*    opacity: 1;*/
+        /*}*/
+
+        /*.pagination-item a:hover .pagination-item-title {*/
+        /*    text-decoration: none;*/
+        /*}*/
+
+
+        /*.pagination-item a:hover .pagination-item-title,*/
+        /*.pagination-item a:hover .pagination-item-subtitle,*/
+        /*.pagination-item a:hover .pagination-item-label {*/
+        /*    opacity: 1;*/
+        /*}*/
 
         .sidebar .search .input-wrap {
             /*margin: 0;*/
@@ -120,7 +195,7 @@
         }
 
         .sidebar .search {
-            margin-top: 0px;
+            margin-top: 0;
         }
 
         .sidebar .search input[type="search"]:focus,
@@ -135,8 +210,28 @@
             background-image: none;
         }
 
-        .sidebar .search .matching-post{
+        .sidebar .search .matching-post {
             border: none;
+        }
+
+        .sidebar .search .matching-post:nth-child(1n) .search-keyword {
+            border: none;
+            background-color: #9c3d98;
+        }
+
+        .sidebar .search .matching-post:nth-child(2n) .search-keyword {
+            border: none;
+            background-color: #e01e5a;
+        }
+
+        .sidebar .search .matching-post:nth-child(3n) .search-keyword {
+            border: none;
+            background-color: #f6b000;
+        }
+
+        .sidebar .search .matching-post:nth-child(4n) .search-keyword {
+            border: none;
+            background-color: #02abd4;
         }
 
         .sidebar .search input[type="search"]::placeholder {
@@ -181,6 +276,7 @@
         .markdown-section .warn::before {
             background-color: #00c7f5;
         }
+
         :root {
             --cover-background-color: #121212;
             --cover-background-image: url('https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/background.png');
