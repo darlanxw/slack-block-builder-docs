@@ -4,8 +4,10 @@
   * [Supported Components](support.md "Block Builder – Supported Components – Maintainable JavaScript Code for Slack Block Kit")
   * [Installation](installation.md "Block Builder – Installation – Maintainable JavaScript Code for Slack Block Kit")
   * [Getting Started](getting-started.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
+  
+* **Global Concepts**
   * [Builder Methods](builder-methods.md "Block Builder – Builder Methods – Maintainable JavaScript Code for Slack Block Kit")
-
+  
 * **Surfaces**
   * [Introduction](surfaces/introduction.md "Block Builder – Surfaces – Introduction – Maintainable JavaScript Code for Slack Block Kit")
   * [Home Tab](surfaces/home-tab.md "Block Builder – Home Tab – Maintainable JavaScript Code for Slack Block Kit")
