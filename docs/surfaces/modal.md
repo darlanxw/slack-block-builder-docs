@@ -105,6 +105,11 @@ Modal.buildToObject()
 
 Builds the object and returns an object compatible with the Slack API (after stringifying it).
 ```javascript
+Modal.getBlocks()
+```
+
+Builds the object and returns an array with the (built) Blocks.
+```javascript
 Modal.printPreviewUrl()
 ```
 

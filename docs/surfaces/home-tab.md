@@ -74,6 +74,11 @@ HomeTab.buildToObject()
 
 Builds the object and returns an object compatible with the Slack API (after stringifying it).
 ```javascript
+HomeTab.getBlocks()
+```
+
+Builds the object and returns an array with the (built) Blocks.
+```javascript
 HomeTab.printPreviewUrl()
 ```
 
