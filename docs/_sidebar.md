@@ -1,10 +1,10 @@
 [![logo](https://raw.githubusercontent.com/raycharius/slack-block-builder-docs/master/docs/resources/images/main/logo-horizontal-small.png)](/  "Block Builder – Maintainable JavaScript Code for Slack Block Kit")
 
 * **Overview**
-  * [Supported Components](support.md "Block Builder – Supported Components – Maintainable JavaScript Code for Slack Block Kit")
   * [Installation](installation.md "Block Builder – Installation – Maintainable JavaScript Code for Slack Block Kit")
+  * [Supported Components](support.md "Block Builder – Supported Components – Maintainable JavaScript Code for Slack Block Kit")
   * [Getting Started](getting-started.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
-  * [Examples Showcase](examples.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
+  * [Examples](examples.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
   * [Case Studies](case-studies.md "Block Builder – Case Studies – Maintainable JavaScript Code for Slack Block Kit")
   
 * **General Concepts**

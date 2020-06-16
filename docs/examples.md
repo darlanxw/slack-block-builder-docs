@@ -1,4 +1,4 @@
-# Example Showcase
+# Example
 
 Below are examples of creating an interactive message and a modal dialog.
 
