@@ -1,9 +1,9 @@
 const { render } = require('mustache');
-const descriptions = require('../dictionary/builder-method-descriptions');
+const descriptions = require('../dictionary/setter-method-descriptions');
 const args = require('../dictionary/method-and-prop-args');
 const methodDoc = require('../partials/method-doc');
 
-const getBuilderMethodsSection = (classConfig) => {
+const getSetterMethodsSection = (classConfig) => {
   const methodDocs = classConfig.methods.reduce((acc, method) => {
     const config = {
       method,
@@ -22,4 +22,4 @@ const getBuilderMethodsSection = (classConfig) => {
   return methodDocs.join('');
 };
 
-module.exports = getBuilderMethodsSection;
+module.exports = getSetterMethodsSection;

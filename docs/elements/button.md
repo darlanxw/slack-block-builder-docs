@@ -1,23 +1,19 @@
 # Button
 
-Created by using the `Button` object.
-
 ?> **Note:** This document is a reference to the `Button` object in **Block Builder**. For information on the business logic for the **Button** in the context of the Slack Block Kit framework, visit [the Button docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#button) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `Button` object is accessed through the `Elements` object:
+An instance of `Button` is created through the `Elements.Button` method:
 
 ```javascript
 import { Elements } from 'slack-block-builder';
 
-// An instance of Button can then be created by calling Elements.Button();
+const myObj = Elements.Button();
 ```
 
 
-### Constructor
-
-The `Button` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `Button` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 Button(params?)
@@ -37,11 +33,11 @@ Button(params?)
 
 A new `Button` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `Button` on which the method is called.
+All setter methods return `this`, the instance of `Button` on which it is called.
 
 ```javascript
 Button.actionId(string)

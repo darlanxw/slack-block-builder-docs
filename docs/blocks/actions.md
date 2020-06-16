@@ -1,23 +1,19 @@
 # Actions
 
-Created by using the `Actions` object.
-
 ?> **Note:** This document is a reference to the `Actions` object in **Block Builder**. For information on the business logic for the **Actions** in the context of the Slack Block Kit framework, visit [the Actions docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;blocks#actions) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `Actions` object is accessed through the `Blocks` object:
+An instance of `Actions` is created through the `Blocks.Actions` method:
 
 ```javascript
 import { Blocks } from 'slack-block-builder';
 
-// An instance of Actions can then be created by calling Blocks.Actions();
+const myObj = Blocks.Actions();
 ```
 
 
-### Constructor
-
-The `Actions` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `Actions` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 Actions(params?)
@@ -31,11 +27,11 @@ Actions(params?)
 
 A new `Actions` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `Actions` on which the method is called.
+All setter methods return `this`, the instance of `Actions` on which it is called.
 
 ```javascript
 Actions.blockId(string)

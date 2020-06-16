@@ -1,8 +1,14 @@
-# Builder Methods
+# Setter Methods
 
-Using the builder methods is super straightforward, but there are a few things that you should know and consider before starting.
+Using the setter methods is super straightforward, but there are a few things that you should know and consider before starting.
 
-### All Builder Methods Accept `undefined`
+### All Setter Methods Return `this`
+
+For the sake of method chaining, all setter methods for the Slack Block Kit objects return the instance on which they are called. 
+
+What? _No_. Not jQuery. **SwiftUI!**
+
+### All Setter Methods Accept `undefined`
 
 If you pass an argument that is `undefined`, you will not get an error. Instead, the property will simply not be set. And **it's a feature**, not a bug. 
 
@@ -10,13 +16,13 @@ This comes in handy when templating and appending Blocks when certain conditions
 
 ### Some Methods Set, Some Append
 
-Certain builder methods set a single value, whereas others append a new value to an array of existing values. 
+Certain setter methods set a single value, whereas others append a new value to an array of existing values. 
 
 As a general rule – methods that end in an 's' will append. A few examples are `Modal.blocks()`, `Blocks.Actions.elements()`, and  `Elements.StaticSelect.options()`.
 
 ### Methods That *Set* – Can Be Called Once
 
-Once a property is set, it cannot be set again. They become immutable. As such, calling a builder method for a property that has already been set will throw and error:
+When a setter method sets a single value, that property cannot be set again. It become immutable. As such, calling a setter method for a property that has already been set will throw and error:
 
 ```javascript
 const myModal = () => {
@@ -28,7 +34,7 @@ const myModal = () => {
 };
 ```
 
-This also applies to properties that have been set in the constructor.
+This also applies to properties that have been set through the params.
 
 ```javascript
 const myOtherModal = () => {
@@ -41,7 +47,7 @@ const myOtherModal = () => {
 
 ### Methods That _Append_ – Can Be Called Multiple Times
 
-Being able to call the appending builder methods more than once is one of the best features of **Block Builder**. It allows for a lot of flexibility and especially comes in handy when working with conditionals, where you might append some Blocks or Elements depending on the result of a condition.
+Being able to call the appending setter methods more than once is one of the best features of **Block Builder**. It allows for a lot of flexibility and especially comes in handy when working with conditionals, where you might append some Blocks or Elements depending on the result of a condition.
 
 ```javascript
 const myModal = () => {

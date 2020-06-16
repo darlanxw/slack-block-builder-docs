@@ -3,7 +3,7 @@ const { render } = require('mustache');
 const getClassData = require('../parsers/get-class-data');
 const getImportSection = require('../helpers/get-import-section');
 const getParamsSection = require('../helpers/get-params-section');
-const getBuilderMethodsSection = require('../helpers/get-builder-methods-section');
+const getSetterMethodsSection = require('../helpers/get-setter-methods-section');
 const getOtherMethodsSection = require('../helpers/get-other-methods-section');
 const template = require('../templates/class-reference');
 
@@ -18,7 +18,7 @@ const generateBuilderClassReferences = async () => {
       link: classConfig.link,
       importSection: getImportSection(classConfig),
       paramsSection: getParamsSection(classConfig),
-      builderMethodsSection: getBuilderMethodsSection(classConfig),
+      setterMethodsSection: getSetterMethodsSection(classConfig),
       otherMethodsSection: getOtherMethodsSection(classConfig),
     };
 
@@ -27,3 +27,4 @@ const generateBuilderClassReferences = async () => {
 };
 
 module.exports = generateBuilderClassReferences;
+generateBuilderClassReferences();

@@ -1,23 +1,19 @@
 # External Multi-Select
 
-Created by using the `ExternalMultiSelect` object.
-
 ?> **Note:** This document is a reference to the `ExternalMultiSelect` object in **Block Builder**. For information on the business logic for the **External Multi-Select** in the context of the Slack Block Kit framework, visit [the External Multi-Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#external_multi_select) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `ExternalMultiSelect` object is accessed through the `Elements` object:
+An instance of `ExternalMultiSelect` is created through the `Elements.ExternalMultiSelect` method:
 
 ```javascript
 import { Elements } from 'slack-block-builder';
 
-// An instance of ExternalMultiSelect can then be created by calling Elements.ExternalMultiSelect();
+const myObj = Elements.ExternalMultiSelect();
 ```
 
 
-### Constructor
-
-The `ExternalMultiSelect` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `ExternalMultiSelect` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 ExternalMultiSelect(params?)
@@ -37,11 +33,11 @@ ExternalMultiSelect(params?)
 
 A new `ExternalMultiSelect` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `ExternalMultiSelect` on which the method is called.
+All setter methods return `this`, the instance of `ExternalMultiSelect` on which it is called.
 
 ```javascript
 ExternalMultiSelect.actionId(string)

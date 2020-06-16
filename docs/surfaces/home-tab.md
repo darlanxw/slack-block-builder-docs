@@ -1,21 +1,19 @@
 # Home Tab
 
-Created by using the `HomeTab` object.
-
 ?> **Note:** This document is a reference to the `HomeTab` object in **Block Builder**. For information on the business logic for the **Home Tab** in the context of the Slack Block Kit framework, visit [the Home Tab docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;surfaces&#x2F;views) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `HomeTab` object is a top-level import:
+The method to create an instance of `HomeTab` is a top-level import:
 
 ```javascript
 import { HomeTab } from 'slack-block-builder';
+
+const myObj = HomeTab();
 ```
 
 
-### Constructor
-
-The `HomeTab` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `HomeTab` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 HomeTab(params?)
@@ -33,11 +31,11 @@ HomeTab(params?)
 
 A new `HomeTab` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `HomeTab` on which the method is called.
+All setter methods return `this`, the instance of `HomeTab` on which it is called.
 
 ```javascript
 HomeTab.blocks(Block1[, ...[, BlockN])

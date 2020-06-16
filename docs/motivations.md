@@ -10,7 +10,7 @@ But when [COVID-19](https://en.wikipedia.org/wiki/COVID-19_pandemic) took the wo
 
 * How do we keep communication up to par?
 * How do we keep our culture alive and flowing?
-* How do we facilitate more interactive meetings?  
+* How do we facilitate the more interactive meetings?  
 
 And in this respect, Slack apps were no longer just an option, but a necessity. 
 

@@ -1,16 +1,18 @@
-const topLevel = `The \`{{name}}\` object is a top-level import:
+const topLevel = `The method to create an instance of \`{{name}}\` is a top-level import:
 
 \`\`\`javascript
 import { {{name}} } from 'slack-block-builder';
+
+const myObj = {{name}}();
 \`\`\`
 `
 
-const lowerLevel = `The \`{{name}}\` object is accessed through the \`{{category}}\` object:
+const lowerLevel = `An instance of \`{{name}}\` is created through the \`{{category}}.{{name}}\` method:
 
 \`\`\`javascript
 import { {{category}} } from 'slack-block-builder';
 
-// An instance of {{name}} can then be created by calling {{category}}.{{name}}();
+const myObj = {{category}}.{{name}}();
 \`\`\`
 `
 

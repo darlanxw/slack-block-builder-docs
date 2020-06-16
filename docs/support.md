@@ -2,9 +2,9 @@
 
 At the time of writing this doc, **Block Builder** supports every component provided by the [Slack Block Kit](https://api.slack.com/block-kit) framework.
 
-Below is a list of supported objects and how to access them in **Block Builder**. 
+Below is a list of supported components and how to access them in **Block Builder**. 
 
-?> **Note:** A few of the [composition objects](https://api.slack.com/reference/block-kit/composition-objects), such as the Plain-Text and Markdown objects are not mentioned here, as they are built in the background, as part of a more UI-focus component. 
+?> **Note:** A few of the [composition objects](https://api.slack.com/reference/block-kit/composition-objects), such as the plain-text and markdown objects are not mentioned here, as they are built in the background, as part of a more UI-focus component. 
 
 | **Name**             | **Type**           | **Support**         | **Accessed Via**                  | **Docs**    
 |----------------------|--------------------|---------------------|-----------------------------------|--------------

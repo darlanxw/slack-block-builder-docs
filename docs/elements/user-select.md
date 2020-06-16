@@ -1,23 +1,19 @@
 # User Select
 
-Created by using the `UserSelect` object.
-
 ?> **Note:** This document is a reference to the `UserSelect` object in **Block Builder**. For information on the business logic for the **User Select** in the context of the Slack Block Kit framework, visit [the User Select docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#users_select) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `UserSelect` object is accessed through the `Elements` object:
+An instance of `UserSelect` is created through the `Elements.UserSelect` method:
 
 ```javascript
 import { Elements } from 'slack-block-builder';
 
-// An instance of UserSelect can then be created by calling Elements.UserSelect();
+const myObj = Elements.UserSelect();
 ```
 
 
-### Constructor
-
-The `UserSelect` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `UserSelect` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 UserSelect(params?)
@@ -35,11 +31,11 @@ UserSelect(params?)
 
 A new `UserSelect` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `UserSelect` on which the method is called.
+All setter methods return `this`, the instance of `UserSelect` on which it is called.
 
 ```javascript
 UserSelect.actionId(string)

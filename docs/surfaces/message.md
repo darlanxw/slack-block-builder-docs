@@ -1,21 +1,19 @@
 # Message
 
-Created by using the `Message` object.
-
 ?> **Note:** This document is a reference to the `Message` object in **Block Builder**. For information on the business logic for the **Message** in the context of the Slack Block Kit framework, visit [the Message docs](https:&#x2F;&#x2F;api.slack.com&#x2F;messaging&#x2F;composing) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `Message` object is a top-level import:
+The method to create an instance of `Message` is a top-level import:
 
 ```javascript
 import { Message } from 'slack-block-builder';
+
+const myObj = Message();
 ```
 
 
-### Constructor
-
-The `Message` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `Message` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 Message(params?)
@@ -35,11 +33,11 @@ Message(params?)
 
 A new `Message` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `Message` on which the method is called.
+All setter methods return `this`, the instance of `Message` on which it is called.
 
 ```javascript
 Message.asUser()

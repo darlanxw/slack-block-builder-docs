@@ -4,17 +4,24 @@
   * [Supported Components](support.md "Block Builder – Supported Components – Maintainable JavaScript Code for Slack Block Kit")
   * [Installation](installation.md "Block Builder – Installation – Maintainable JavaScript Code for Slack Block Kit")
   * [Getting Started](getting-started.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
+  * [Examples Showcase](examples.md "Block Builder – Getting Started – Maintainable JavaScript Code for Slack Block Kit")
+  * [Case Studies](case-studies.md "Block Builder – Case Studies – Maintainable JavaScript Code for Slack Block Kit")
   
-* **Global Concepts**
-  * [Builder Methods](builder-methods.md "Block Builder – Builder Methods – Maintainable JavaScript Code for Slack Block Kit")
+* **General Concepts**
+  * [Introduction](introduction.md "Block Builder – General Concepts – Introduction – Maintainable JavaScript Code for Slack Block Kit")
+  * [Setter Methods](setter-methods.md "Block Builder – Setter Methods – Maintainable JavaScript Code for Slack Block Kit")
+  * [Configuring Views](configuring-views.md "Block Builder – Configuring Views – Maintainable JavaScript Code for Slack Block Kit") 
+  * [Build Methods](build-methods.md "Block Builder – Build Methods – Maintainable JavaScript Code for Slack Block Kit")
+  * [Working With Conditions](working-with-conditions.md "Block Builder – Working With Conditions – Maintainable JavaScript Code for Slack Block Kit")
   
-* **Surfaces**
+  
+* **Surface References**
   * [Introduction](surfaces/introduction.md "Block Builder – Surfaces – Introduction – Maintainable JavaScript Code for Slack Block Kit")
   * [Home Tab](surfaces/home-tab.md "Block Builder – Home Tab – Maintainable JavaScript Code for Slack Block Kit")
   * [Message](surfaces/message.md "Block Builder – Message")
   * [Modal](surfaces/modal.md "Block Builder – Modal – Maintainable JavaScript Code for Slack Block Kit")
 
-* **Blocks**
+* **Block References**
   * [Introduction](blocks/introduction.md "Block Builder – Blocks – Introduction – Maintainable JavaScript Code for Slack Block Kit")
   * [Actions](blocks/actions.md "Block Builder – Actions – Maintainable JavaScript Code for Slack Block Kit")
   * [Context](blocks/context.md "Block Builder – Context – Maintainable JavaScript Code for Slack Block Kit")
@@ -25,7 +32,7 @@
   * [Section](blocks/section.md "Block Builder – Section – Maintainable JavaScript Code for Slack Block Kit")
  
 
-* **Elements**
+* **Element References**
   * [Introduction](elements/introduction.md "Block Builder – Elements – Introduction – Maintainable JavaScript Code for Slack Block Kit")
   * [Button](elements/button.md "Block Builder – Button – Maintainable JavaScript Code for Slack Block Kit")
   * [Channel Multi-Select](elements/channel-multiselect.md "Block Builder – Channel Multi-Select – Maintainable JavaScript Code for Slack Block Kit")
@@ -45,7 +52,7 @@
   * [User Multi-Select](elements/user-multiselect.md "Block Builder – User Multi-Select – Maintainable JavaScript Code for Slack Block Kit")
   * [User Select](elements/user-select.md "Block Builder – User Select – Maintainable JavaScript Code for Slack Block Kit")
   
-* **Bits**
+* **Bit References**
   * [Introduction](bits/introduction.md "Block Builder – Bits – Introduction – Maintainable JavaScript Code for Slack Block Kit")
   * [Confirmation Dialog](bits/confirmation-dialog.md "Block Builder – Confirmation Dialog – Maintainable JavaScript Code for Slack Block Kit")
   * [Option](bits/option.md "Block Builder – Option – Maintainable JavaScript Code for Slack Block Kit")

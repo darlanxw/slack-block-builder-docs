@@ -1,23 +1,19 @@
 # Checkboxes
 
-Created by using the `Checkboxes` object.
-
 ?> **Note:** This document is a reference to the `Checkboxes` object in **Block Builder**. For information on the business logic for the **Checkboxes** in the context of the Slack Block Kit framework, visit [the Checkboxes docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;block-kit&#x2F;block-elements#checkboxes) on Slack's doc site.
 
-### Importing
+### Creating an Instance 
 
-The `Checkboxes` object is accessed through the `Elements` object:
+An instance of `Checkboxes` is created through the `Elements.Checkboxes` method:
 
 ```javascript
 import { Elements } from 'slack-block-builder';
 
-// An instance of Checkboxes can then be created by calling Elements.Checkboxes();
+const myObj = Elements.Checkboxes();
 ```
 
 
-### Constructor
-
-The `Checkboxes` object provides a builder interface, so all properties can be set through the object’s methods. But certain properties can also be passed to the constructor, should you prefer:
+The `Checkboxes` object has chainable setter methods for the object's properties. However, properties with primitive values can also be passed to the instantiating function, should you prefer:
 
 ```javascript
 Checkboxes(params?)
@@ -31,11 +27,11 @@ Checkboxes(params?)
 
 A new `Checkboxes` object.
 
-?> **Note:** For an explanation of any one of the parameters, see its corresponding builder method below.
+?> **Note:** For an explanation of any one of the parameters, see its corresponding setter method below.
 
-### Builder Methods
+### Setter Methods
 
-All builder methods return `this`, the instance of `Checkboxes` on which the method is called.
+All setter methods return `this`, the instance of `Checkboxes` on which it is called.
 
 ```javascript
 Checkboxes.actionId(string)

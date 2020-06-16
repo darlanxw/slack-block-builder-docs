@@ -21,18 +21,18 @@ When building views and messages for [Slack](https://slack.com) apps, there is a
 
 ### Exposed Imports
 
-All of the categories above are top-level imports: 
+The top-level imports are as follows: 
 
 ```javascript
 import { Message, Modal, HomeTab, Blocks, Elements, Bits } from 'slack-block-builder';
 ```
-The first three, `Message`, `Modal`, and `HomeTab`, are objects for creating Surfaces. They are exposed separately, as more often than not, you'll only be using one in a file.
+The first three, `Message`, `Modal`, and `HomeTab`, are methods for creating `Surface` objects. They are exposed separately, as more often than not, you'll only be using one in a file.
 
-The rest are objects that allow you to build members of the category. For example, `Blocks.Section()`, `Elements.TextInput()`, and `Bits.ConfirmationDialog()`.
+The rest are objects that have functions that allow you to create new instances of members of the category. For example, `Blocks.Section()`, `Elements.TextInput()`, and `Bits.ConfirmationDialog()`.
 
 ### Example
 
-The following example illustrates a very simple modal dialog that illustrates the general heirarchy and puts an object from each category into action:
+The following example illustrates a very simple modal dialog that illustrates the general hierarchy and puts an object from each category into action:
 
 ```javascript
 import { Modal, Blocks, Elements, Bits } from 'slack-block-builder';
@@ -55,4 +55,4 @@ const myModal = () => {
 };
 ```
 
-That's really all of the basics. However, you should continue on to read about other topics, more specific to **Block Builder**, such as working with the [builder methods](builder-methods.md), and how [conditionals](conditionals.md) can be handled.
+That's really all of the basics. However, you should continue on to read about other topics, more specific to **Block Builder**, such as working with the [setter methods](setter-methods.md), and how conditionals can be handled.
