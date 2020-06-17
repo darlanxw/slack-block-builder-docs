@@ -138,4 +138,8 @@ HomeTab.printPreviewUrl()
 
 <!-- tabs:end -->
 
+### Good to Know  
+
 Logs a preview URL to Slack's [Block Kit Builder website](https://app.slack.com/block-kit-builder) to the console, with your view's data in the query string.
+
+There are cases when you might need to call a build method more than once. As such, when calling one of the build methods after the object has been built, the object will not be mutated in any way – the method will simply return the built result (built during the first call).
