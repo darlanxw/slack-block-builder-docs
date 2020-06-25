@@ -27,9 +27,9 @@ Message(params?)
 
 `text` – *String*
 
-`threadTs` – *Timestamp*
+`threadTs` – *String*
 
-`ts` – *Timestamp*
+`ts` – *String*
 
 #### Returns
 
@@ -82,12 +82,12 @@ Message.replaceOriginal()
 
 Sets this option to `true`, which means when sent, this message will replace the message that is the origin of the interaction payload. Used when working with response URLs.
 ```javascript
-Message.threadTs(timestamp)
+Message.threadTs(string)
 ```
 
 Sets the timestamp of the message to which the current message will be sent, as a message in its thread.
 ```javascript
-Message.ts(timestamp)
+Message.ts(string)
 ```
 
 Sets the timestamp of a message to update.
