@@ -48,6 +48,7 @@ module.exports = {
   clearOnClose: null,
   notifyOnClose: null,
   asUser: null,
+  ts: 'timestamp',
   threadTs: 'timestamp',
   replaceOriginal: null,
   deleteOriginal: null,

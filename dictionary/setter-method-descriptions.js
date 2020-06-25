@@ -54,6 +54,7 @@ module.exports = {
   clearOnClose: 'Sets this option to `true`, meaning all open modals (for example, modals lower in the stack) will be cleared up closing it.',
   notifyOnClose: 'Sets this option to `true`, meaning your application will receive an interaction payload when the modal is closed.',
   asUser: 'Sets this option to `true`, which means the message will be sent from your app as a user or bot user.',
+  ts: 'Sets the timestamp of a message to update.',
   threadTs: 'Sets the timestamp of the message to which the current message will be sent, as a message in its thread.',
   replaceOriginal: 'Sets this option to `true`, which means when sent, this message will replace the message that is the origin of the interaction payload. Used when working with response URLs.',
   deleteOriginal: 'Sets this option to `true`, which means when sent, this message will delete the message that is the origin of the interaction payload. Used when working with response URLs.',

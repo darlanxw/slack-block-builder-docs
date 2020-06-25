@@ -29,6 +29,8 @@ Message(params?)
 
 `threadTs` – *Timestamp*
 
+`ts` – *Timestamp*
+
 #### Returns
 
 A new `Message` object.
@@ -84,6 +86,11 @@ Message.threadTs(timestamp)
 ```
 
 Sets the timestamp of the message to which the current message will be sent, as a message in its thread.
+```javascript
+Message.ts(timestamp)
+```
+
+Sets the timestamp of a message to update.
 
 
 ### Other Methods
