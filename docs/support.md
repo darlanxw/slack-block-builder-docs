@@ -30,3 +30,4 @@ Below is a list of supported components and how to access them in **Block Builde
 | Option               | Composition Object | **Yes**             | `Bits.Option()`                   | [View Docs](bits/option.md)
 | Confirm Dialog       | Composition Object | **Yes**             | `Bits.ConfirmationDialog()`       | [View Docs](bits/confirmation-dialog.md)
 | Option Group         | Composition Object | **Yes**             | `Bits.OptionGroup()`              | [View Docs](bits/option-group.md)
+| Attachment           | Legacy Feature     | **Yes**             | `Bits.Attachment()`              | [View Docs](bits/attachment.md)
