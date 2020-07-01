@@ -66,4 +66,6 @@ module.exports = {
   privateMetaData: 'Sets a string to be returned back to your application with interaction and submission payloads. Typically used to persist data between views or provide context for an interaction.',
   callbackId: 'Sets a string to be returned back to your application with interaction and submission payloads. Typically used to persist data between views or provide context for an interaction. Is considered legacy, according to Slack\'s documentation. It is recommended to use `privateMetaData()` instead.',
   blocks: 'Appends Blocks to a Surface. Can be called multiple times.',
+  color: 'Sets the color of the border to the left of the message attachment.',
+  attachments: 'Appends Attachments to the Message. Can be called multiple times.',
 };

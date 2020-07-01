@@ -2,6 +2,7 @@ module.exports = {
   'confirmation-dialog.js': 'Confirmation Dialog',
   'option.js': 'Option',
   'option-group.js': 'Option Group',
+  'attachment.js': 'Attachment',
   'actions.js': 'Actions',
   'context.js': 'Context',
   'divider.js': 'Divider',

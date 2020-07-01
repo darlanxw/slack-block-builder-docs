@@ -54,6 +54,7 @@
   
 * **Bit References**
   * [Introduction](bits/introduction.md "Block Builder – Bits – Introduction – Maintainable JavaScript Code for Slack Block Kit")
+  * [Attachment](bits/attachment.md "Block Builder – Attachment – Maintainable JavaScript Code for Slack Block Kit")
   * [Confirmation Dialog](bits/confirmation-dialog.md "Block Builder – Confirmation Dialog – Maintainable JavaScript Code for Slack Block Kit")
   * [Option](bits/option.md "Block Builder – Option – Maintainable JavaScript Code for Slack Block Kit")
   * [Option Group](bits/option-group.md "Block Builder – Option Group – Maintainable JavaScript Code for Slack Block Kit") 

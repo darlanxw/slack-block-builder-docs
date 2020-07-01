@@ -1,6 +1,6 @@
 # Message
 
-?> **Note:** This document is a reference to the `Message` object in **Block Builder**. For information on the business logic for the **Message** in the context of the Slack Block Kit framework, visit [the Message docs](https:&#x2F;&#x2F;api.slack.com&#x2F;messaging&#x2F;composing) on Slack's doc site.
+?> **Note:** This document is a reference to the `Message` object in **Block Builder**. For information on the business logic for the **Message** in the context of the Slack Block Kit framework, visit [the Message docs](https:&#x2F;&#x2F;api.slack.com&#x2F;reference&#x2F;messaging&#x2F;attachments) on Slack's doc site.
 
 ### Creating an Instance 
 
@@ -23,7 +23,7 @@ Message(params?)
 
 `channel` – *String*
 
-`postAt` – *Timestamp*
+`postAt` – *String*
 
 `text` – *String*
 
@@ -46,6 +46,11 @@ Message.asUser()
 ```
 
 Sets this option to `true`, which means the message will be sent from your app as a user or bot user.
+```javascript
+Message.attachments(Attachment1[, ...[, AttachmentN])
+```
+
+Appends Attachments to the Message. Can be called multiple times.
 ```javascript
 Message.blocks(Block1[, ...[, BlockN])
 ```
@@ -72,7 +77,7 @@ Message.inChannel()
 
 Sets the response type to be `in_channel`, which makes the message only visible everyone in the channel or conversation to which it is sent.
 ```javascript
-Message.postAt(timestamp)
+Message.postAt(string)
 ```
 
 Sets a timestamp for a time in the future, at which the message will be sent. Used for scheduling messages.
@@ -107,6 +112,11 @@ Message.buildToObject()
 ```
 
 Builds the object and returns an object compatible with the Slack API (after stringifying it).
+```javascript
+Message.getAttachments()
+```
+
+Builds the object and returns an array with the (built) Attachments.
 ```javascript
 Message.getBlocks()
 ```

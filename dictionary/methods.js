@@ -63,7 +63,10 @@ module.exports = {
   inChannel: 'inChannel',
   end: 'end',
   getBlocks: 'getBlocks',
+  getAttachments: 'getAttachments',
   buildToJSON: 'buildToJSON',
   buildToObject: 'buildToObject',
   printPreviewUrl: 'printPreviewUrl',
+  attachment: 'attachment',
+  color: 'color',
 };
