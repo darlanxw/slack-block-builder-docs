@@ -27,6 +27,7 @@
   * [Context](blocks/context.md "Block Builder – Context – Maintainable JavaScript Code for Slack Block Kit")
   * [Divider](blocks/divider.md "Block Builder – Divider – Maintainable JavaScript Code for Slack Block Kit")
   * [File](blocks/file.md "Block Builder – File – Maintainable JavaScript Code for Slack Block Kit")
+  * [Header](blocks/header.md "Block Builder – Header – Maintainable JavaScript Code for Slack Block Kit")
   * [Image](blocks/image.md "Block Builder – Image – Maintainable JavaScript Code for Slack Block Kit")
   * [Input](blocks/input.md "Block Builder – Input – Maintainable JavaScript Code for Slack Block Kit")
   * [Section](blocks/section.md "Block Builder – Section – Maintainable JavaScript Code for Slack Block Kit")
