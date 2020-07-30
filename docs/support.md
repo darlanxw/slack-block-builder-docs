@@ -15,6 +15,7 @@ Below is a list of supported components and how to access them in **Block Builde
 | Context              | Block              | **Yes**             | `Blocks.Context()`                | [View Docs](blocks/context.md)
 | Divider              | Block              | **Yes**             | `Blocks.Divider()`                | [View Docs](blocks/divider.md)
 | File                 | Block              | **Yes**             | `Blocks.File()`                   | [View Docs](blocks/file.md)
+| Header               | Block              | **Yes**             | `Blocks.Header()`                 | [View Docs](blocks/header.md)
 | Image                | Block              | **Yes**             | `Blocks.Image()`                  | [View Docs](blocks/image.md)
 | Input                | Block              | **Yes**             | `Blocks.Input()`                  | [View Docs](blocks/input.md)
 | Section              | Block              | **Yes**             | `Blocks.Section()`                | [View Docs](blocks/section.md)
