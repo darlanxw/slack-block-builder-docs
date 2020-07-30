@@ -30,4 +30,5 @@ module.exports = {
   'home-tab.js': 'Home Tab',
   'message.js': 'Message',
   'modal.js': 'Modal',
+  'header.js': 'Header',
 };
