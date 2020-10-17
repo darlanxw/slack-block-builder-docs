@@ -44,7 +44,7 @@ OverflowMenu.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-OverflowMenu.options(Option1[, ...[, OptionN])
+OverflowMenu.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

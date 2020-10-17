@@ -39,7 +39,7 @@ Actions.blockId(string)
 
 Sets an ID for the Block to help you identify it in interaction and submission payloads.
 ```javascript
-Actions.elements(Element1[, ...[, ElementN])
+Actions.elements([Element1[, ...[, ElementN]])
 ```
 
 Appends elements. Can be called multiple times.

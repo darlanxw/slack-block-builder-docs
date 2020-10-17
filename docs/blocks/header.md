@@ -40,6 +40,11 @@ Header.blockId(string)
 ```
 
 Sets an ID for the Block to help you identify it in interaction and submission payloads.
+```javascript
+Header.text(string)
+```
+
+Sets the text to be displayed in the block
 
 
 ### Other Methods

@@ -39,7 +39,7 @@ Context.blockId(string)
 
 Sets an ID for the Block to help you identify it in interaction and submission payloads.
 ```javascript
-Context.elements(Element1[, ...[, ElementN])
+Context.elements([Element1[, ...[, ElementN]])
 ```
 
 Appends elements. Can be called multiple times.

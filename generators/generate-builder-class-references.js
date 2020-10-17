@@ -27,3 +27,5 @@ const generateBuilderClassReferences = async () => {
 };
 
 module.exports = generateBuilderClassReferences;
+
+generateBuilderClassReferences();

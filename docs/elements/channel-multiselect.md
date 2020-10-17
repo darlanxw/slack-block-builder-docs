@@ -48,7 +48,7 @@ ChannelMultiSelect.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-ChannelMultiSelect.initialChannels(string1[, ...[, stringN])
+ChannelMultiSelect.initialChannels([string1[, ...[, stringN]])
 ```
 
 Appends channels selected at load. Can be called multiple times.

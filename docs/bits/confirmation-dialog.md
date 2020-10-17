@@ -60,6 +60,11 @@ ConfirmationDialog.primary()
 
 Sets the style of the button, making it green.
 ```javascript
+ConfirmationDialog.text(string)
+```
+
+Sets the text to be displayed in the block
+```javascript
 ConfirmationDialog.title(string)
 ```
 

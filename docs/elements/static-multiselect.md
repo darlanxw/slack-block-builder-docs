@@ -48,7 +48,7 @@ StaticMultiSelect.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-StaticMultiSelect.initialOptions(Option1[, ...[, OptionN])
+StaticMultiSelect.initialOptions([Option1[, ...[, OptionN]])
 ```
 
 Appends initial options to be selected by default. Can be called multiple times.
@@ -58,12 +58,12 @@ StaticMultiSelect.maxSelectedItems(int)
 
 Sets a maximum number of items that can be selected in the menu.
 ```javascript
-StaticMultiSelect.optionGroups(OptionGroup1[, ...[, OptionGroupN])
+StaticMultiSelect.optionGroups([OptionGroup1[, ...[, OptionGroupN]])
 ```
 
 Appends groups of options for the select menu. Can be called multiple times.
 ```javascript
-StaticMultiSelect.options(Option1[, ...[, OptionN])
+StaticMultiSelect.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

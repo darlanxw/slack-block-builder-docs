@@ -43,6 +43,11 @@ Input.blockId(string)
 
 Sets an ID for the Block to help you identify it in interaction and submission payloads.
 ```javascript
+Input.dispatchAction()
+```
+
+This sets the input to dispatch action events to your server upon interaction with them.
+```javascript
 Input.element(Element)
 ```
 

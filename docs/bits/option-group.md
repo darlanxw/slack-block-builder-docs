@@ -39,7 +39,7 @@ OptionGroup.label(string)
 
 Sets the label to be displayed above the input Element.
 ```javascript
-OptionGroup.options(Option1[, ...[, OptionN])
+OptionGroup.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

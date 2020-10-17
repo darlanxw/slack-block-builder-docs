@@ -50,6 +50,7 @@
   * [Static Multi-Select](elements/static-multiselect.md "Block Builder – Static Multi-Select – Maintainable JavaScript Code for Slack Block Kit")
   * [Static Select](elements/static-select.md "Block Builder – Static Select – Maintainable JavaScript Code for Slack Block Kit")
   * [Plain-Text Input](elements/text-input.md "Block Builder – Plain-Text Input – Maintainable JavaScript Code for Slack Block Kit")
+  * [Time Picker](elements/time-picker.md "Block Builder – Time Picker – Maintainable JavaScript Code for Slack Block Kit")
   * [User Multi-Select](elements/user-multiselect.md "Block Builder – User Multi-Select – Maintainable JavaScript Code for Slack Block Kit")
   * [User Select](elements/user-select.md "Block Builder – User Select – Maintainable JavaScript Code for Slack Block Kit")
   

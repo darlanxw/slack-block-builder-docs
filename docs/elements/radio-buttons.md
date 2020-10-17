@@ -49,7 +49,7 @@ RadioButtons.initialOption(Option)
 
 Sets the option that is selected by default upon loading.
 ```javascript
-RadioButtons.options(Option1[, ...[, OptionN])
+RadioButtons.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

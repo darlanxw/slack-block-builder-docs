@@ -44,12 +44,12 @@ Checkboxes.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-Checkboxes.initialOptions(Option1[, ...[, OptionN])
+Checkboxes.initialOptions([Option1[, ...[, OptionN]])
 ```
 
 Appends initial options to be selected by default. Can be called multiple times.
 ```javascript
-Checkboxes.options(Option1[, ...[, OptionN])
+Checkboxes.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

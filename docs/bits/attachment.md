@@ -34,7 +34,7 @@ A new `Attachment` object.
 All setter methods return `this`, the instance of `Attachment` on which it is called.
 
 ```javascript
-Attachment.blocks(Block1[, ...[, BlockN])
+Attachment.blocks([Block1[, ...[, BlockN]])
 ```
 
 Appends Blocks to a Surface. Can be called multiple times.

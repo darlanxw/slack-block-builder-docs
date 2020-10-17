@@ -47,6 +47,16 @@ TextInput.actionId(string)
 
 Sets an ID for the Element to help you identify it and capture set values in interaction and submission payloads.
 ```javascript
+TextInput.dispatchActionOnCharacterEntered()
+```
+
+This option causes the input to send an action event to your server when the interacting user enters any character.
+```javascript
+TextInput.dispatchActionOnEnterPressed()
+```
+
+This option causes the input to send an action event to your server when the interacting user presses Enter.
+```javascript
 TextInput.initialValue(string)
 ```
 

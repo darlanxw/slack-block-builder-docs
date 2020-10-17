@@ -48,7 +48,7 @@ UserMultiSelect.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-UserMultiSelect.initialUsers(string1[, ...[, stringN])
+UserMultiSelect.initialUsers([string1[, ...[, stringN]])
 ```
 
 Sets the users selected by default in the menu.

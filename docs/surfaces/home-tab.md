@@ -38,7 +38,7 @@ A new `HomeTab` object.
 All setter methods return `this`, the instance of `HomeTab` on which it is called.
 
 ```javascript
-HomeTab.blocks(Block1[, ...[, BlockN])
+HomeTab.blocks([Block1[, ...[, BlockN]])
 ```
 
 Appends Blocks to a Surface. Can be called multiple times.

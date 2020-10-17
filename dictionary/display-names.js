@@ -31,4 +31,5 @@ module.exports = {
   'message.js': 'Message',
   'modal.js': 'Modal',
   'header.js': 'Header',
+  'time-picker.js': 'Time Picker',
 };

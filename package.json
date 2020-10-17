@@ -7,6 +7,9 @@
     "docsify-server-renderer": "^4.11.2",
     "docsify-tabs": "^1.4.2",
     "mustache": "^4.0.1",
-    "slack-block-builder": "^1.6.0"
+    "slack-block-builder": "^1.7.1"
+  },
+  "dependencies": {
+    "@speee-js/jsx-slack": "^2.5.1"
   }
 }

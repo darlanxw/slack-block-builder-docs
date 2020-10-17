@@ -68,4 +68,9 @@ module.exports = {
   blocks: 'Appends Blocks to a Surface. Can be called multiple times.',
   color: 'Sets the color of the border to the left of the message attachment.',
   attachments: 'Appends Attachments to the Message. Can be called multiple times.',
+  initialTime: 'Sets the default selected time in the menu. Note that this method accepts a string in the HH:mm format, in which HH is for hours, in the 24-hour format, and mm is minutes, with a leading zero.',
+  dispatchAction: 'This sets the input to dispatch action events to your server upon interaction with them.',
+  dispatchActionOnEnterPressed: 'This option causes the input to send an action event to your server when the interacting user presses Enter.',
+  dispatchActionOnCharacterEntered: 'This option causes the input to send an action event to your server when the interacting user enters any character.',
+  text: 'Sets the text to be displayed in the block',
 };

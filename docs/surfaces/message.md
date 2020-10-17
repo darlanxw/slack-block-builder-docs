@@ -47,12 +47,12 @@ Message.asUser()
 
 Sets this option to `true`, which means the message will be sent from your app as a user or bot user.
 ```javascript
-Message.attachments(Attachment1[, ...[, AttachmentN])
+Message.attachments([Attachment1[, ...[, AttachmentN]])
 ```
 
 Appends Attachments to the Message. Can be called multiple times.
 ```javascript
-Message.blocks(Block1[, ...[, BlockN])
+Message.blocks([Block1[, ...[, BlockN]])
 ```
 
 Appends Blocks to a Surface. Can be called multiple times.
@@ -86,6 +86,11 @@ Message.replaceOriginal()
 ```
 
 Sets this option to `true`, which means when sent, this message will replace the message that is the origin of the interaction payload. Used when working with response URLs.
+```javascript
+Message.text(string)
+```
+
+Sets the text to be displayed in the block
 ```javascript
 Message.threadTs(string)
 ```

@@ -69,4 +69,8 @@ module.exports = {
   printPreviewUrl: 'printPreviewUrl',
   attachment: 'attachment',
   color: 'color',
+  initialTime: 'initialTime',
+  dispatchAction: 'dispatchAction',
+  dispatchActionOnEnterPressed: 'dispatchActionOnEnterPressed',
+  dispatchActionOnCharacterEntered: 'dispatchActionOnCharacterEntered',
 };

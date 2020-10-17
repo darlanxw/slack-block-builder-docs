@@ -44,7 +44,7 @@ A new `Modal` object.
 All setter methods return `this`, the instance of `Modal` on which it is called.
 
 ```javascript
-Modal.blocks(Block1[, ...[, BlockN])
+Modal.blocks([Block1[, ...[, BlockN]])
 ```
 
 Appends Blocks to a Surface. Can be called multiple times.

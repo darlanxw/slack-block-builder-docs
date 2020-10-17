@@ -60,6 +60,11 @@ Button.primary()
 
 Sets the style of the button, making it green.
 ```javascript
+Button.text(string)
+```
+
+Sets the text to be displayed in the block
+```javascript
 Button.url(string)
 ```
 

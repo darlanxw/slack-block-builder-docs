@@ -68,7 +68,7 @@ ConversationMultiSelect.filter(string1[, ...[, stringN])
 
 Appends a filter to filter out which conversations should be included in the list. Possible values are *im*, *impm*, *private*, and *public*. Can be called multiple times.
 ```javascript
-ConversationMultiSelect.initialConversations(string1[, ...[, stringN])
+ConversationMultiSelect.initialConversations([string1[, ...[, stringN]])
 ```
 
 Appends conversations to be selected by default. Can be called multiple times.

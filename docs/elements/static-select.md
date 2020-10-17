@@ -51,12 +51,12 @@ StaticSelect.initialOption(Option)
 
 Sets the option that is selected by default upon loading.
 ```javascript
-StaticSelect.optionGroups(OptionGroup1[, ...[, OptionGroupN])
+StaticSelect.optionGroups([OptionGroup1[, ...[, OptionGroupN]])
 ```
 
 Appends groups of options for the select menu. Can be called multiple times.
 ```javascript
-StaticSelect.options(Option1[, ...[, OptionN])
+StaticSelect.options([Option1[, ...[, OptionN]])
 ```
 
 Appends options. Can be called multiple times.

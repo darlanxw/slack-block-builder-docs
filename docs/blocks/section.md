@@ -46,10 +46,15 @@ Section.blockId(string)
 
 Sets an ID for the Block to help you identify it in interaction and submission payloads.
 ```javascript
-Section.fields(string1[, ...[, stringN])
+Section.fields([string1[, ...[, stringN]])
 ```
 
 Appends text fields that are displayed side-by-side. Can be called multiple times.
+```javascript
+Section.text(string)
+```
+
+Sets the text to be displayed in the block
 
 
 ### Other Methods

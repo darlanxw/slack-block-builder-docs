@@ -45,6 +45,11 @@ Option.description(string)
 
 Sets a description to be shown next to the radio button.
 ```javascript
+Option.text(string)
+```
+
+Sets the text to be displayed in the block
+```javascript
 Option.url(string)
 ```
 

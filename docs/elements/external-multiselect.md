@@ -50,7 +50,7 @@ ExternalMultiSelect.confirm(ConfirmationDialog)
 
 Sets a confirmation dialog to be shown upon interaction.
 ```javascript
-ExternalMultiSelect.initialOptions(Option1[, ...[, OptionN])
+ExternalMultiSelect.initialOptions([Option1[, ...[, OptionN]])
 ```
 
 Appends initial options to be selected by default. Can be called multiple times.
