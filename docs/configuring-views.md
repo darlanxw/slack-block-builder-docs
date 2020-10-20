@@ -14,13 +14,13 @@ Modal.clearOnClose()
 
 Tells Slack that it needs to clear all open modals in the stack when the one in question is closed.
 
-#### ** As Bot **
+#### ** As User **
 
 ```javascript
-Message.asBot()
+Message.asUser()
 ```
 
-Tells Slack that the message should be sent from the app's associated bot. 
+Tells Slack that the message should be sent as a user. With a bot token, it sends as the bot user, with a user scoped token, from the actual user. 
 
 #### ** Replace Original **
 
